@@ -1,0 +1,58 @@
+
+#input:placeholder-shown{
+    border: none;
+}
+#todoapp{
+    width: 30%;
+    margin: 0 auto;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* justify-content: center; */
+    background-color: cyan;
+    border-radius: 10px;
+}
+
+#todoapp h1{
+    font-family: sans-serif;
+    font-weight: 400;
+}
+
+.inputFiled{
+    display: flex;
+    width: 95%;
+}
+
+.addBtn{
+    border: none;
+    background-color:red ;
+    color: white;
+}
+
+.clearBtn{
+    background-color: white;
+    border: none;
+}
+
+#todoapp input{
+    width: 85%;
+    padding: 10px;
+    font-size: 20px;
+    border: none;
+}
+
+#delAll{
+    border: none;
+    margin-top: 20px;
+    padding: 10px;
+    font-weight: bold;
+}
+
+ul{
+    width: 100%;
+    list-style: decimal;
+    list-style-position: inside;
+    position: relative;
+    
+}
